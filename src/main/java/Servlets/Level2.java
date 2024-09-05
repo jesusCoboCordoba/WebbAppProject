@@ -26,7 +26,7 @@ public class Level2 extends HttpServlet {
         out.println("<body style=\" text-align: center;\" >");
         out.println("<br>");
         out.println("<h3 >" + name + " estas dispuesto a hablar con nuestro lider?" + "</h3>");
-        out.println("<form action='/WebbAppProject/level2' method='get'>");
+        out.println("<form action='/level2' method='get'>");
         out.println("<input type='radio' name='opcion' value='opcion1'> Aceptar ir con el lider alien <br>");
         out.println("<input type='radio' name='opcion' value='opcion2'> Rehusarte hablar con el <br>");
         out.println("<input type='submit' value='Enviar'>");

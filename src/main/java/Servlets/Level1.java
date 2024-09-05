@@ -34,7 +34,7 @@ public class Level1 extends HttpServlet {
         out.println("<body style=\" text-align: center;\">");
         out.println("<head style= text-align: center; > <title>Alien:</title> </head>");
         out.println("<h2 >"+ "Entonces "+username + "¿ Vas a aceptar nuestro desafío ? " +"</h2>");
-        out.println("<form action='/WebbAppProject/level1' method='post'>");
+        out.println("<form action='/level1' method='post'>");
         out.println("<input type='radio' name='opcion' value='opcion1'> Aceptar el desafio <br>");
         out.println("<input type='radio' name='opcion' value='opcion2'> Rehusar el desafio <br>");
         out.println("<input type='submit' value='Enviar'>");

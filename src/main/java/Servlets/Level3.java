@@ -25,7 +25,7 @@ public class Level3 extends HttpServlet {
         out.println("<h3>" + " Lider alien: " + "</h3>");
         out.println("<h4>" + " Hola humano , mi nombre es ⏁⊑⟒⟒ ⊑⍜⋏⟒⌇⏁ ⍜⋏⟒" + "</h4>");
         out.println("<h4>" + " cual es el tuyo? " + "</h4>");
-        out.println("<form action='/WebbAppProject/level3' method='post' autocomplete='off'>");
+        out.println("<form action='/level3' method='post' autocomplete='off'>");
         out.println("<input type='text' name='usernameLevel3' placeholder='Ingresa tu nombre'>");
         out.println("<button type='submit'>Enviar</button>");
         out.println("<br>");

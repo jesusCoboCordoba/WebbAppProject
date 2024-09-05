@@ -5,7 +5,7 @@
 <br>
 <h4>Insignificante criatura, dinos ahora cómo te llama tu gente primitiva o no dudaremos en matarte. </h4>
 
-<form action="/WebbAppProject/level1" method="GET">
+<form action="/level1" method="GET">
     <input type="text" name="username" placeholder="Ingresa tu nombre" autocomplete="off">
     <button type="submit">Enviar</button>
 </form>

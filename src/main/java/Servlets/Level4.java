@@ -32,7 +32,7 @@ public class Level4 extends HttpServlet {
         out.println("<h3 >" + " Lider alien: " + "</h3>");
         out.println("<h4>" + " Muy bien " + username + "  responde esto y seras libre" + "</h4>");
         out.println("<h4>" +  pregunta + "</h4>");
-        out.println("<form action='/WebbAppProject/level4' method='get' autocomplete='off' >");
+        out.println("<form action='/level4' method='get' autocomplete='off' >");
         out.println("<input type='text' name='respuesta' placeholder='Ingresa tu respuesta'>");
         out.println("<button type='submit'>Enviar</button>");
         out.println("<br>");

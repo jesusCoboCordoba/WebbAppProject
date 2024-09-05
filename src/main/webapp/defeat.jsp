@@ -33,7 +33,7 @@
         </c:choose>
      <c:out value = " Intentalo de nuevo" />
    </body>
- <form action="/WebbAppProject/welcomePage.jsp" method="GET">
+ <form action="/welcomePage.jsp" method="GET">
      <button type="submit"> reiniciar </button>
  </form>
 
